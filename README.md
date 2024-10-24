@@ -71,30 +71,30 @@ bash
 
     Navegue até o diretório onde o seu script está salvo.
 
-    Execute o script:
+Execute o script:
 
     bash
 
     python msg.py
 
-    Aguarde a abertura do WhatsApp Web:
-        O script solicitará que você escaneie o QR code do WhatsApp Web. Após escanear, pressione Enter no terminal.
+Aguarde a abertura do WhatsApp Web:
+O script solicitará que você escaneie o QR code do WhatsApp Web. Após escanear, pressione Enter no terminal.
 
-    O script começará a enviar mensagens automaticamente.
+O script começará a enviar mensagens automaticamente.
 
 ## ⚙️ Configurações do Script
 
-    Nome do grupo ou contato: Altere a variável nome_grupo para o nome do grupo ou contato que deseja enviar mensagens.
+Nome do grupo ou contato: Altere a variável nome_grupo para o nome do grupo ou contato que deseja enviar mensagens.
 
-python
+## python
 
-nome_grupo = "nome do contato ou do grupo"
+    nome_grupo = "nome do contato ou do grupo"
 
-    Mensagem a ser enviada: Modifique a variável mensagem para personalizar a mensagem que será enviada.
+Mensagem a ser enviada: Modifique a variável mensagem para personalizar a mensagem que será enviada.
 
-python
+## python
 
-mensagem = "Mensagem enviada automaticamente com script python"
+    mensagem = "Mensagem enviada automaticamente com script python"
 
 ## 🤝 Contribuição
 
