@@ -1,10 +1,10 @@
-🐍 WhatsApp Automation Script
+# 🐍 WhatsApp Automation Script
 
 Este projeto consiste em um script Python que automatiza o envio de mensagens para um grupo ou contato específico no WhatsApp Web utilizando a biblioteca Selenium.
 📋 Requisitos
 
 Antes de executar o script, você precisará configurar o ambiente conforme as instruções abaixo:
-1. Instalação do Selenium
+## 1. Instalação do Selenium
 
 Você pode instalar a biblioteca Selenium usando o pip. Execute o seguinte comando no terminal:
 
@@ -12,7 +12,7 @@ bash
 
 pip install selenium
 
-2. Download do GeckoDriver
+## 2. Download do GeckoDriver
 
 O GeckoDriver é necessário para interagir com o navegador Firefox. Siga as instruções abaixo para baixar e configurar o GeckoDriver:
 🖥️ Windows
@@ -65,7 +65,7 @@ bash
 
     sudo mv geckodriver /usr/local/bin/
 
-3. Executando o Script
+## 3. Executando o Script
 
     Abra o terminal ou o prompt de comando.
 
@@ -82,7 +82,7 @@ bash
 
     O script começará a enviar mensagens automaticamente.
 
-⚙️ Configurações do Script
+## ⚙️ Configurações do Script
 
     Nome do grupo ou contato: Altere a variável nome_grupo para o nome do grupo ou contato que deseja enviar mensagens.
 
@@ -96,9 +96,9 @@ python
 
 mensagem = "Mensagem enviada automaticamente com script python"
 
-🤝 Contribuição
+## 🤝 Contribuição
 
 Sinta-se à vontade para contribuir com melhorias ou correções no script. Você pode abrir um issue ou enviar um pull request.
-📜 Licença
+## 📜 Licença
 
 Este projeto é licenciado sob a MIT License.
